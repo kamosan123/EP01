@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BUSCADOR DE AREAS DE FIGURAS</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script src = "js/script.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<h1>ELECTIVA PROFESIONAL 1 ENTREGA 1</h1>
+	<section id="main">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<a href="#ventana">cuadrado</a>
+		<a href="#ventana1">triangulo</a>
+		<a href="#ventana2">circulo</a>
+		<a href="#ventana3">palabras</a>
+		<a href="#ventana4">capicua</a>
+	</section>
+	<section id="ventana">
+		<section class="contenido"></section>
+			<div class="contenedor">
+				<a href="#cerrado">cerrar</a><br>
+				<br>
+				<br>
+				<label>lado a:</label>
+				<input type="text" id="lado_a" class="datos"><br>
+				<br>
+				<label>lado b:</label>
+				<input type="text" id="lado_b" class="datos"><br>
+				<br>
+				<input type="button" class="botones" onclick="valor1()" value="enviar">
+				<br>
+				<div id="mostrar1" class="mostrar"></div>
+			</div>
+	</section>
+	<section id="ventana1">
+		<section class="contenido"></section>
+			<div class="contenedor">
+				<a href="#cerrado">cerrar</a><br>
+				<br>
+				<br>
+				<label>base:</label>
+				<input type="text" id="base" class="datos"><br>
+				<br>
+				<label>altura:</label>
+				<input type="text" id="altura" class="datos"><br>
+				<br>
+				<input type="button" class="botones" onclick="valor2()" value="enviar">
+					<div id="mostrar2" class="mostrar"></div>
+			</div>
+	</section>
+	<section id="ventana2">
+		<section class="contenido"></section>
+			<div class="contenedor">
+				<a href="#cerrado">cerrar</a><br>
+				<br>
+				<br>
+				<label>radio:</label>
+				<input type="text" id="radio" class="datos"><br>
+				<br>
+				<input type="button" class="botones" onclick="valor3()" value="enviar">
+					<div id="mostrar3" class="mostrar"></div>
+			</div>
+	</section>
+	<section id="ventana3">
+		<section class="contenido"></section>
+			<div class="contenedor">
+				<a href="#cerrado">cerrar</a><br>
+				<br>
+				<br>
+				<label>palabra:</label>
+				<input type="text" id="palabra" class="datos"><br>
+				<br>
+			<center>	<table>
+				<tr>
+					<td><input type="button" class="botones2" onclick="valor5()" value="consonantes"></td>
+					<td><input type="button" class="botones" onclick="valor4()" value="letras"></td>
+				</tr>
+			</table></center>
+
+					<div id="mostrar4" class="mostrar"></div>
+			</div>
+	</section>
+	<section id="ventana4">
+		<section class="contenido"></section>
+			<div class="contenedor">
+				<a href="#cerrado">cerrar</a><br>
+				<br>
+				<br>
+				<label>numero:</label>
+				<input type="text" id="numero" class="datos"><br>
+				<br>
+				<input type="button" class="botones" onclick="valor6()" value="enviar">
+
+					<div id="mostrar5" class="mostrar"></div>
+			</div>
+	</section>
+</body>
+</html>
