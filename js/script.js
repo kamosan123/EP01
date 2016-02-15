@@ -275,6 +275,8 @@ function valor5()
   contador20=0;
   contador21=0;
 }
+//-------------------------------|| numero capicua ||-----------------------------------------------
+
 function valor6(){
   numero=document.getElementById('numero').value;
       document.getElementById("mostrar5").innerHTML="el numero debe ser no mayor ni menor a 4 digitos.";
